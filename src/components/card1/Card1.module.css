@@ -1,0 +1,58 @@
+.card1 {
+  border-radius: 20px;
+  margin-left: 150px;
+  margin-top: 100px;
+  width: 400px;
+  height: 220px;
+  background: linear-gradient(90deg, rgb(128, 119, 227), rgb(52, 8, 146));
+
+  position: relative;
+  z-index: 2;
+  color: black;
+}
+
+.card1__top {
+  display: flex;
+  margin-top: 30px;
+  color: white;
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.card1__bottom {
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 30px;
+  font-weight: 700;
+}
+.card1__radios {
+  display: flex;
+  margin-left: 20px;
+}
+
+.card1__radios input[type="radio"] {
+  width: 40px;
+  height: 40px;
+  margin-top: 10px;
+}
+.card1__radio {
+  border-radius: 20px;
+  width: 30px;
+  height: 30px;
+  background-color: rgba(242, 234, 234, 0);
+  border: 2px solid white;
+  margin-top: 20px;
+}
+
+@media (max-width: 480px) {
+  .card1 {
+    /* position: relative; */
+    margin: auto;
+    margin-left: 20px;
+    top: 60px;
+    /* z-index: 5; */
+  }
+}
